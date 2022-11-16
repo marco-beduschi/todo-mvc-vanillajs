@@ -12,11 +12,12 @@
       <h1>todos</h1>
       <section>
         <h2 class="sr-only">New Todo</h2>
-        <input placeholder="What needs to be done?" class="new-todo" autofocus />
+        <input placeholder="What needs to be done?" class="new-todo" autofocus data-todo="new" />
         <section class="main">
           <h2 class="sr-only">Todos List</h2>
+          <ul class="todo-list" data-todo="list"></ul>
         </section>
-        <footer class="footer"></footer>
+        <footer class="footer" style="display: none"></footer>
       </section>
     </main>
 
