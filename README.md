@@ -4,10 +4,11 @@ I wanted to take my shot on creating a vanillaJS TodoMVC after reading [this blo
 
 ## Project Scope
 
-- [ ] Create TO-DOs
+- [x] Create TO-DOs
   - [ ] autofocus on `<input />`
   - [ ] Maintain focus on `<input />` after submitting form
-- [ ] List TO-DOs
+  - [ ] Clear input value after submit
+- [x] List TO-DOs
 - [ ] Inline editing TO-DO
 - [ ] Mark TO-DO as complete
 - [ ] Mark ALL TO-DOs as complete
